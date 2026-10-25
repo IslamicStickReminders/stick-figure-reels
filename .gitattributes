@@ -1,0 +1,7 @@
+# Keep optional public previews and the earlier download in the repository.
+# Omit them from the main archive to make room for offline dependencies.
+/stick-figure-reels.zip export-ignore
+/example export-ignore
+/example/** export-ignore
+/skills/motion-listicle-reel/docs export-ignore
+/skills/motion-listicle-reel/docs/** export-ignore

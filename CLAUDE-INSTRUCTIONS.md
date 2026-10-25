@@ -7,7 +7,9 @@ videos plus paste-ready captions**, never scripts or prompts for them to run.
 
 The course lives in a public Git repository: **https://github.com/IslamicStickReminders/stick-figure-reels**. It holds the drawing engine, fonts,
 a sound library, a Qur'an recitation mixer, 28 cached recitations, word timings for every ayah,
-worked examples and one finished reel. Everything below runs from the `kit/` folder of that
+worked code examples. Reference images and a finished example reel are linked online from
+the course page; they are optional and not included in the downloaded ZIP. Render fresh
+test frames during setup. Everything below runs from the `kit/` folder of that
 repository. This is the course's Ember/two-lane workflow. For first-time onboarding,
 read `START-HERE.md` at the bundle root. The infographic workflow is in
 `skills/motion-listicle-reel/`. Use this document with the root `kit/` only.
@@ -21,13 +23,23 @@ read `START-HERE.md` at the bundle root. The infographic workflow is in
    `git clone https://github.com/IslamicStickReminders/stick-figure-reels course` and
    work in `course/kit/`. If the shell cannot reach GitHub, ask for the complete
    repository ZIP only when no usable attachment is already present.
-2. From the kit folder: `bash setup.sh` (creates a local `.venv`, installs skia-python, numpy,
-   scipy, pillow and uharfbuzz, and checks ffmpeg + ffprobe). It prints `deps ok`.
+2. From the kit folder: `bash setup.sh`. It creates a local `.venv` that reuses working
+   system packages, checks imports first, and tries the bundled verified offline wheels
+   for missing packages before any online fallback. It checks skia-python, numpy, scipy,
+   Pillow and uharfbuzz, plus ffmpeg + ffprobe. Offline support is limited to the package
+   and platform combinations in `offline/manifest.json` and `offline/wheels.tar.xz`.
    Then run `source .venv/bin/activate` before the Python commands below. Activate it again
    in each new shell, or use `.venv/bin/python` in place of `python3`.
 3. Smoke test: `cp examples/v69_callfirst_ember.py . && python3 v69_callfirst_ember.py stills 1.2 8.8`
    then look at `test/v69e/t08.80.png`. If it looks like a dark plum stage with white figures
    and an end card, you are ready.
+
+If setup fails, inspect its diagnostic output. A missing import or blocked package
+index does not mean code execution is disabled. Record the Python version,
+platform/architecture and exact failed import or command. In a network-restricted
+sandbox, run `STICK_REEL_OFFLINE=1 bash setup.sh` to test local dependencies without
+online fallback. Report the actual missing package or unsupported platform before
+suggesting any user action. Do not invent a network or account-setting toggle.
 
 If neither the clone nor a zip is available, ask for one. Do not try to rebuild the engine from memory.
 

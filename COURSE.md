@@ -19,7 +19,7 @@ The course includes:
 - **COURSE.md** — this page
 - **[CLAUDE-INSTRUCTIONS.md](CLAUDE-INSTRUCTIONS.md)** — the instructions you give Claude
 - **[kit/](kit/)** — the engine: drawing code, fonts, sound, the recitation mixer, 28 recited ayat, worked examples. You never open it; Claude does.
-- **example/** — one finished reel ([watch it](example/call-first.mp4)) and its test frames, so you know what "right" looks like
+- **Worked code examples** — included in `kit/examples/`. The [reference frames](https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/example/call-first-frames.png) and [finished example reel](https://github.com/IslamicStickReminders/stick-figure-reels/blob/main/example/call-first.mp4) are optional previews on the public page, not files in the downloaded ZIP. Claude renders a fresh test frame during setup.
 
 ---
 
@@ -110,7 +110,7 @@ It reads as irony he can smile at, not a scolding. Write a new ending every time
 
 The engine does all of this. You don't set any of it. It's here so you know what right looks like when you check the frames.
 
-![Test frames from Call First](example/call-first-frames.png)
+![Test frames from Call First](https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/example/call-first-frames.png)
 
 **Matte and flat-lit.** No glow, no bloom, no neon. This is the mistake every copy makes. Light appears only when it means something in the story: a pool of light under a man, a beam from above. Never as decoration.
 
@@ -187,7 +187,7 @@ Made with the free course from @islamicstickreminders
 ## 9. If something goes wrong
 
 - **Claude says it can't run code or make files.** Check that your Claude setup supports those features and has them enabled.
-- **The render fails.** Say: *Run the smoke test again.* If it fails again, start a new chat and clone again.
+- **Setup or rendering fails.** Say: *Run the included setup and smoke test, then tell me exactly what failed.* The bundle includes offline packages for supported environments, so a failed download does not by itself mean you need to change account settings.
 - **It can't fetch a recitation.** Twenty-eight common ayat are already in the kit. For any other ayah, download the mp3 from everyayah.com (reciter: Mishary Alafasy, 128kbps; the file is named by surah and ayah, so 17:23 is 017023.mp3) and attach it to the chat. Or use a hadith end card instead.
 - **The Arabic looks broken.** Tell Claude to write the ayah without the dagger alif.
 - **The video is over 10 MB.** Tell Claude to re-encode it under 10 MB.

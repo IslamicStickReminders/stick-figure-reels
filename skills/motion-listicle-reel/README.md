@@ -4,7 +4,7 @@ Turn an idea into a clean infographic — a 9:16 motion reel and a set of
 static cards — from one JSON file. No editor, no timeline, no image
 generator.
 
-![Four frames from three different reels](docs/hero.png)
+![Four frames from three different reels](https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/skills/motion-listicle-reel/docs/hero.png)
 
 Every frame above came out of the same pipeline. Different subjects,
 different palettes, one visual language.
@@ -26,9 +26,9 @@ The stills are grabbed at 82% of each scene — where every reveal has landed
 and nothing has faded — so a carousel post falls out of the reel for free.
 
 <p align="center">
-  <img src="docs/cards/compound-versus.png" width="240">
-  <img src="docs/cards/compound-bars.png" width="240">
-  <img src="docs/cards/compound-recap.png" width="240">
+  <img src="https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/skills/motion-listicle-reel/docs/cards/compound-versus.png" width="240">
+  <img src="https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/skills/motion-listicle-reel/docs/cards/compound-bars.png" width="240">
+  <img src="https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/skills/motion-listicle-reel/docs/cards/compound-recap.png" width="240">
 </p>
 
 ## The format
@@ -79,7 +79,7 @@ invariant — one ground, one structural colour, one scarce accent that
 is the only colour allowed to say *look here* — which is why a diagram built
 for one looks right in all six.
 
-![Examples of the six themes](docs/themes.png)
+![Examples of the six themes](https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/skills/motion-listicle-reel/docs/themes.png)
 
 `plum` · `ink` · `forest` · `ember` · `slate` · `paper`
 

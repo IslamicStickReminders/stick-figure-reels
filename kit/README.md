@@ -5,13 +5,20 @@ The full method is in [CLAUDE-INSTRUCTIONS.md](../CLAUDE-INSTRUCTIONS.md) one fo
 The person starts by attaching the complete bundle to Claude and saying **Get me started**.
 Claude follows [START-HERE.md](../START-HERE.md); the full course is in [COURSE.md](../COURSE.md).
 
-    bash setup.sh                                   # local .venv, deps, ffmpeg/ffprobe check
+    bash setup.sh                                   # reuse working packages; local wheels first
     source .venv/bin/activate                        # repeat in each new shell
     cp examples/v69_callfirst_ember.py .            # scripts live next to the engine
     python3 v69_callfirst_ember.py stills 1.2 8.8   # test frames -> test/v69e/
     python3 tools/sheet.py test/v69e test/v69e_sheet.png "0,200,1080,1500"   # contact sheet
     python3 v69_callfirst_ember.py                  # full render -> out/v69e_silent.mp4 + out/v69e_events.json
     python3 sfx_reels.py v69e                       # sound -> out/v69e_audio.wav (add build_vXX for a new reel)
+
+Setup creates a local `.venv` with access to working system packages. Missing
+packages are tried from the verified `offline/wheels.tar.xz` payload first;
+`offline/manifest.json` identifies the bundled wheels. Coverage is limited to
+those package/platform combinations. If network access is unavailable, run
+`STICK_REEL_OFFLINE=1 bash setup.sh` for an offline-only dependency diagnostic.
+Read the exact failure before suggesting a settings change.
 
 The commands above produce the silent video and its separate sound file. Follow
 [the sound and export steps](../CLAUDE-INSTRUCTIONS.md#6-making-a-reel-step-by-step)
@@ -37,7 +44,7 @@ Files
 - sfx.py: synth sound library (step, cloth, thump, pluck, swell, whoosh, splash, wind, crickets, Mix...).
 - sfx_reels.py: one build_vXX per reel; v60–v75 are worked examples (build_v69 / build_v69e are two-lane).
 - quran_mix.py: recitation overlay for Qur'an end cards (CFG per reel).
-- audio_src/hq: 28 cached Alafasy ayah mp3s (SSSAAA.mp3) + timings.json (word times for every ayah in the Qur'an).
+- audio_src/hq: 28 cached Alafasy ayah mp3s (SSSAAA.mp3) + timings.json.gz (losslessly compressed word times for every ayah in the Qur'an).
 - tools/: sheet.py (contact sheets), find_cuts.sh (pauses in a recitation), word_times.py. Treat cached
   word timings as a rough guide; listen to verify the exact phrase and cut boundaries.
 - examples/: v69_callfirst_ember.py is the current format (two lanes, Ember). v63 (explainer, Qur'an), v67 (two-lane,

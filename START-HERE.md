@@ -13,15 +13,31 @@ folder. Locate this file and use its parent as the bundle root, regardless
 of the enclosing folder's name. If it is already extracted, use that copy.
 
 Check which capabilities are actually available: reading attachments,
-local files, a shell/Python, installing dependencies, rendering and sharing
-files, and web access for checking sources. Do not claim that anything is
-ready until the relevant smoke test succeeds. Do not install dependencies
-or run every bundled example merely to introduce the bundle.
+local files, a shell/Python, rendering and sharing files, and web access
+for checking sources. A sandbox with no network may still run the renderer.
+A missing Python package is not evidence that code execution is disabled.
 
-If the ZIP cannot be opened here, or code execution is unavailable, say
-exactly what is missing and give the shortest applicable next step. If you
-can still discuss the idea or explain the course, do so. Never invent a
-finished file, successful render, enabled feature or installed skill.
+For the selected story workflow, run the included `bash setup.sh` before
+concluding that dependencies cannot be installed. It checks imports first,
+reuses working packages and tries the bundled verified offline wheels for
+missing packages. The offline payload covers specific package/platform
+combinations, not every possible environment. Do not claim setup worked
+until the relevant smoke test succeeds; do not set up both workflows or
+run every bundled example just to introduce the bundle.
+
+If setup fails, read its diagnostic output before asking the person to
+change anything. Distinguish an unreadable attachment, unavailable code
+execution, a missing library, an incompatible offline wheel and a missing
+video tool. Capture the Python version, platform/architecture and exact
+failing import or command. With network unavailable, the diagnostic run is
+`STICK_REEL_OFFLINE=1 bash setup.sh` from `kit/`; it disables online fallback.
+
+Report the actual blocker and the shortest applicable next step. Do not
+assume an account setting can enable network access or install packages,
+and do not tell the person to find a toggle unless you have verified that
+it exists in their setup. If you can still discuss the idea or explain the
+course, do so. Never invent a finished file, successful render, enabled
+feature or installed skill.
 
 ## 2. Pick the workflow from what the person wants
 
@@ -33,22 +49,23 @@ There are two main creative choices, if a choice would help:
 
 - **Story reels:** two people face the same situation and make different
   choices. Warm plum and terracotta scenes, a brief reveal and sound.
-  Preview: `example/call-first-frames.png`; finished example:
-  `example/call-first.mp4`.
 - **Infographic reels and cards:** numbered points, animated diagrams and
-  matching static images. Preview:
-  `skills/motion-listicle-reel/docs/hero.png`.
+  matching static images.
 
-Describe those in one or two plain sentences, or show the supplied
-previews, only when needed to understand the person's idea. The person
-chooses a subject and a look, not a technical package.
+Describe those in one or two plain sentences only when needed to understand
+the person's idea. Render the selected workflow's actual smoke-test frame
+and show that as the preview. The public repository page has optional
+reference images and a finished video if network access is available;
+those preview files are not in the ZIP and are never required for setup.
+Do not wait for online previews or treat their absence as a blocker. The
+person chooses a subject and a look, not a technical package.
 
 ## 3. Prepare the selected workflow
 
 ### Story reels — default
 
 Read `CLAUDE-INSTRUCTIONS.md` and use the root `kit/` folder. The longer
-course is `COURSE.md`. Follow the documented setup, activate the local
+course is `COURSE.md`. Run `bash setup.sh` from `kit/`, activate the local
 Python environment and render the two smoke-test stills. Inspect the
 ending frame before reporting that setup worked.
 

@@ -14,9 +14,9 @@ there. Tell it the idea; it handles the setup and helps you make the reel.
 The download includes short story reels, infographic reels with matching
 image cards, and the full course.
 
-![Frames from the Call First reel](example/call-first-frames.png)
+![Frames from the Call First reel](https://raw.githubusercontent.com/IslamicStickReminders/stick-figure-reels/main/example/call-first-frames.png)
 
-[Watch the example](example/call-first.mp4) · [Read the course](COURSE.md)
+[Watch the example](https://github.com/IslamicStickReminders/stick-figure-reels/blob/main/example/call-first.mp4) · [Read the course](COURSE.md)
 
 This is free. If it helps you, please give to the
 [New Brunswick Islamic Center's new masjid](https://www.launchgood.com/v4/campaign/a_new_home_for_nbic_secure_the_land_build_the_future).

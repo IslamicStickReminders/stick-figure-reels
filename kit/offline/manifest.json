@@ -1,0 +1,39 @@
+{
+  "archive_sha256": "311c7645b66af85dad12735b50f27184fa70f42de1552341d47dfe937547bf20",
+  "wheels": {
+    "skia_python-144.1-cp311-cp311-manylinux_2_28_x86_64.whl": "e3408194c9a7b83c5fad36ad594fc52857233a6bb524b6703ca43b3b4e958d9b",
+    "skia_python-144.1-cp312-cp312-manylinux_2_28_x86_64.whl": "a56e33d0c4e313cc9e878ae20ae4625ad3e538a22c6b40266d63e812ac47a696",
+    "skia_python-144.1-cp313-cp313-manylinux_2_28_x86_64.whl": "0b1a6ae3e2d0c8161d015de508dae012156d415a0eaf5fbc80b82aeecab17f5f",
+    "uharfbuzz-0.57.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": "cdb6834908400a326ba48da36f04bba43453f53d749fd0b283ce1033ebfdffb4",
+    "pybind11-3.1.0-py3-none-any.whl": "bd768516c667c1563fd2841936345b1f74bd4a10cbf012727b5fc839f1bd5568"
+  },
+  "sources": {
+    "skia_python-144.1-cp311-cp311-manylinux_2_28_x86_64.whl": {
+      "url": "https://files.pythonhosted.org/packages/92/e3/5b4361ece0d5e8e08793675f1d6e66d08b59da6d6ec6787c4ef7c588a285/skia_python-144.1-cp311-cp311-manylinux_2_28_x86_64.whl",
+      "sha256": "db9f2dd35bfec41b12e4518a2d8e1f9b6e32cdfb6696f006d692e885de2b5f69"
+    },
+    "skia_python-144.1-cp312-cp312-manylinux_2_28_x86_64.whl": {
+      "url": "https://files.pythonhosted.org/packages/a6/43/0a1a964baa6e45d829927c9e1286691c240d4ab2f8ebfb2235455abc7999/skia_python-144.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "sha256": "b8d0b6995f95308edbf0ef57e1f31ee9bb5ac5d428c1e0ab8e5e9deda2783698"
+    },
+    "skia_python-144.1-cp313-cp313-manylinux_2_28_x86_64.whl": {
+      "url": "https://files.pythonhosted.org/packages/83/8d/4ceaf1652aaca8c7397e55a7141969e684807a08f1cbb355a4db35cd2a58/skia_python-144.1-cp313-cp313-manylinux_2_28_x86_64.whl",
+      "sha256": "a008767c16671f3704ea5e1a8cee99854047044632c0d71a37105d6b632b816a"
+    },
+    "uharfbuzz-0.57.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl": {
+      "url": "https://files.pythonhosted.org/packages/be/b7/b94c52e9903da0ebe2cd20874f09770fd1217cf99859bb7e401f552c600c/uharfbuzz-0.57.0-cp311-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "sha256": "72b5251e81fbde5e398ecd5d618c521be8cfde42f281d569e47ab9c9a5e669fe"
+    },
+    "pybind11-3.1.0-py3-none-any.whl": {
+      "url": "https://files.pythonhosted.org/packages/33/fd/8762f7ee3e4e4be6d1d846cffb4916dd9bb02b2f800d3603718a0efe494c/pybind11-3.1.0-py3-none-any.whl",
+      "sha256": "b8488090f8acffbcb6b5d6a85571a6827a0a2981ffb75e5a0b27b87c4a6b7dd0"
+    }
+  },
+  "packages": {
+    "skia-python": "144.1",
+    "uharfbuzz": "0.57.0",
+    "pybind11": "3.1.0"
+  },
+  "platform": "Linux x86_64 glibc>=2.28, CPython3.11\u20133.13",
+  "packaging": "Official wheels repacked with ZIP_STORED for solid compression. Every file payload, RECORD entry and included license preserved unchanged."
+}
