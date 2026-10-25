@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+kit/out/
+kit/test/
+kit/v[0-9]*_*.py
+!kit/examples/

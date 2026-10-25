@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "handle": "",
+    "theme": "ink",
+    "title": "Compound interest, explained",
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "dur": 4.0,
+      "text": "*Compound interest*, in [one minute]",
+      "top": 260,
+      "art": "bars",
+      "artTop": 820,
+      "artScale": 1.05,
+      "artOpts": {
+        "values": [
+          4,
+          6,
+          9,
+          14,
+          22,
+          36,
+          60
+        ],
+        "highlight": 6
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "Interest earns [its own interest]",
+      "sub": "That is the whole trick. *Nothing else.*",
+      "subTop": 500,
+      "art": "steps",
+      "artTop": 1080,
+      "artScale": 1.0,
+      "artDelay": 0.45,
+      "artOpts": {
+        "steps": [
+          "you save",
+          "it earns",
+          "that earns",
+          "and on"
+        ],
+        "highlightLast": true
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "Which bends the line into [a curve]",
+      "sub": "Same deposit. *Different shape.*",
+      "subTop": 500,
+      "art": "versus",
+      "artTop": 900,
+      "artScale": 1.0,
+      "artDelay": 0.45,
+      "artOpts": {
+        "left": {
+          "symbol": "arrowUp",
+          "label": "Simple",
+          "note": "a straight line"
+        },
+        "right": {
+          "symbol": "chart",
+          "label": "Compound",
+          "note": "a curve"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "[Time] matters more than the amount",
+      "sub": "Years do more work than *size of deposit*.",
+      "subTop": 500,
+      "art": "versus",
+      "artTop": 900,
+      "artScale": 1.0,
+      "artDelay": 0.45,
+      "artOpts": {
+        "left": {
+          "symbol": "coin",
+          "label": "A bigger deposit"
+        },
+        "right": {
+          "symbol": "clock",
+          "label": "More years"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "Starting [ten years earlier]",
+      "sub": "can beat putting in *twice as much*.",
+      "subTop": 500,
+      "art": "bars",
+      "artTop": 1020,
+      "artScale": 1.05,
+      "artDelay": 0.45,
+      "artOpts": {
+        "values": [
+          100,
+          176
+        ],
+        "labels": [
+          "LATER",
+          "EARLIER"
+        ],
+        "highlight": 1
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "Most of the growth is in [the last stretch]",
+      "sub": "The boring middle years are *doing the work*.",
+      "subTop": 540,
+      "art": "bars",
+      "artTop": 1050,
+      "artScale": 1.05,
+      "artDelay": 0.45,
+      "artOpts": {
+        "values": [
+          3,
+          4,
+          6,
+          9,
+          13,
+          19,
+          28,
+          41,
+          60
+        ],
+        "highlight": 8
+      }
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "So the hard part is [waiting]",
+      "sub": "Not the maths. *The waiting.*",
+      "subTop": 470,
+      "art": "arc",
+      "artTop": 980,
+      "artScale": 1.0,
+      "artDelay": 0.4,
+      "artOpts": {
+        "pct": 0.86,
+        "center": "30",
+        "caption": "years, mostly uneventful"
+      }
+    },
+    {
+      "type": "recap",
+      "dur": 6.6,
+      "top": 500,
+      "kicker": "THE WHOLE IDEA",
+      "items": [
+        {
+          "t": "Interest earns interest"
+        },
+        {
+          "t": "Which bends the line into a curve"
+        },
+        {
+          "t": "Time beats amount"
+        },
+        {
+          "t": "Early beats bigger"
+        },
+        {
+          "t": "The growth hides in the last stretch"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "dur": 3.8,
+      "text": "What would you tell your *younger self*?",
+      "top": 300,
+      "art": "symbol",
+      "artTop": 820,
+      "artScale": 1.0,
+      "artOpts": {
+        "name": "seed",
+        "size": 280
+      }
+    },
+    {
+      "type": "cta",
+      "dur": 5.0,
+      "say": "Follow for more<br>one-minute explainers",
+      "btn": "Follow",
+      "btnDone": "Following",
+      "flipAt": 3.2
+    }
+  ]
+}

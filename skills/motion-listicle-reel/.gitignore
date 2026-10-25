@@ -1,0 +1,9 @@
+build/
+out/
+*.mp4
+*.tgz
+_pkg/
+_ttf/
+_lic/
+__pycache__/
+.DS_Store

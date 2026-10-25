@@ -1,15 +1,30 @@
-# Stick Figure Reels
+# Make your first reel
 
-The Stick Figure Reels skill package for **@islamicstickreminders**.
+*A free course and reel-making kit from [@islamicstickreminders](https://www.instagram.com/islamicstickreminders/)*
 
-[**Download the skill package**](https://github.com/IslamicStickReminders/stick-figure-reels/archive/refs/heads/main.zip)
+**[Download everything](https://github.com/IslamicStickReminders/stick-figure-reels/archive/refs/heads/main.zip)**
 
-1. Download and extract `stick-figure-reels-main.zip`.
-2. Open the extracted folder and find `stick-figure-reels.zip`.
-3. Upload that inner ZIP to Claude as your skill package. Keep the inner ZIP zipped.
+1. Download the ZIP above.
+2. Attach it, as downloaded, to a chat with Claude.
+3. Say **Get me started**.
 
-If an in-app browser cannot save the download, open this page in Safari or Chrome and try again.
+Claude will read the instructions, check what it can run and guide you from
+there. Tell it the idea; it handles the setup and helps you make the reel.
 
-The ZIP contents are unchanged from the original package.
+The download includes short story reels, infographic reels with matching
+image cards, and the full course.
 
-SHA-256: `ff46c679aa333d6394cc5705a90a34b88bf71885fe1ba36dac9add9efb5f5a6f`
+![Frames from the Call First reel](example/call-first-frames.png)
+
+[Watch the example](example/call-first.mp4) · [Read the course](COURSE.md)
+
+This is free. If it helps you, please give to the
+[New Brunswick Islamic Center's new masjid](https://www.launchgood.com/v4/campaign/a_new_home_for_nbic_secure_the_land_build_the_future).
+May Allah accept it from you.
+
+When you post a reel made with this, please put **"Made with the free course
+from @islamicstickreminders"** in the caption, and send me the reel. I want to see it.
+
+<sub>Copyright (c) 2026 Islamic Stick Reminders. The code in the kit is yours to use for your own reels.</sub>
+
+[Third-party credits and licence scope](THIRD-PARTY-NOTICES.md)

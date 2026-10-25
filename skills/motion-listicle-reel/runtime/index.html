@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>reel</title>
+<link rel="stylesheet" href="theme.css">
+</head><body>
+<div id="stage"></div>
+<script src="engine.js"></script>
+<script src="symbols.js"></script>
+<script src="art.js"></script>
+<script src="diagrams.js"></script>
+<script src="scenes.js"></script>
+<script>
+// The renderer sets window.__SPEC__ before calling boot().
+window.boot = function (spec) {
+  if (spec.meta && spec.meta.theme) document.documentElement.dataset.theme = spec.meta.theme;
+  E.build(spec);
+  window.renderFrame(0);
+  return window.reelDuration;
+};
+</script>
+</body></html>

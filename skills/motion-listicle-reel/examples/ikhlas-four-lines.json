@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "handle": "",
+    "title": "Four lines that end every wrong idea of Allah",
+    "w": 1080,
+    "h": 1920,
+    "fps": 30
+  },
+  "scenes": [
+    {
+      "type": "title",
+      "dur": 4.2,
+      "text": "*Four lines* that end every wrong idea of [Allah]",
+      "top": 250,
+      "art": "humanDefault",
+      "artTop": 740,
+      "artScale": 1.08
+    },
+    {
+      "type": "item",
+      "dur": 6.6,
+      "text": "Sūrat al-Ikhlāṣ does it in [four moves]",
+      "sub": "One short āyah for each thing we get *wrong*.",
+      "subTop": 500,
+      "art": "blueprint",
+      "artTop": 900,
+      "artScale": 1.05,
+      "artDelay": 0.45,
+      "artOpts": {
+        "items": [
+          {
+            "ar": "أَحَدٌ",
+            "icon": "rings",
+            "kills": "No parts"
+          },
+          {
+            "ar": "ٱلصَّمَدُ",
+            "icon": "cube",
+            "kills": "No body"
+          },
+          {
+            "ar": "لَمْ يَلِدْ",
+            "icon": "twins",
+            "kills": "No pairing"
+          },
+          {
+            "ar": "كُفُوًا",
+            "icon": "scales",
+            "kills": "No equal"
+          }
+        ]
+      },
+      "cite": "SŪRAT AL-IKHLĀṢ · 112"
+    },
+    {
+      "type": "item",
+      "dur": 6.4,
+      "text": "[Aḥad] is not *one of many*",
+      "sub": "It means *one piece*. Nothing in Him to pull apart.",
+      "subTop": 470,
+      "art": "indivisible",
+      "artTop": 920,
+      "artScale": 1.12,
+      "artDelay": 0.4,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:1"
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "Anything you can [picture] has parts",
+      "sub": "Your eyes only know things with edges. He has *none*.",
+      "subTop": 510,
+      "art": "senses",
+      "artTop": 950,
+      "artScale": 1.14,
+      "artDelay": 0.45,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:1"
+    },
+    {
+      "type": "item",
+      "dur": 6.4,
+      "text": "One essence shared by [three persons]",
+      "sub": "That is still a thing with *parts*.",
+      "subTop": 500,
+      "art": "threeVsOne",
+      "artTop": 950,
+      "artScale": 1.1,
+      "artDelay": 0.45,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:1"
+    },
+    {
+      "type": "item",
+      "dur": 6.4,
+      "text": "[aṣ-Ṣamad] — everything leans on Him",
+      "sub": "And He leans on *nothing*.",
+      "subTop": 500,
+      "art": "leaning",
+      "artTop": 940,
+      "artScale": 1.08,
+      "artDelay": 0.4,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:2"
+    },
+    {
+      "type": "item",
+      "dur": 6.4,
+      "text": "Ṣamad also means [nothing hollow]",
+      "sub": "Hollow needs walls. Walls are *parts*.",
+      "subTop": 500,
+      "art": "hollowSolid",
+      "artTop": 980,
+      "artScale": 1.14,
+      "artDelay": 0.4,
+      "cite": "CLASSICAL ARABIC · JAWF = INNER CAVITY"
+    },
+    {
+      "type": "item",
+      "dur": 6.6,
+      "text": "No inside means [no body]",
+      "sub": "No top. No bottom. No front. No back.",
+      "subTop": 470,
+      "art": "cubeDirections",
+      "artTop": 940,
+      "artScale": 1.08,
+      "artDelay": 0.4,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:2"
+    },
+    {
+      "type": "item",
+      "dur": 6.4,
+      "wash": "linear-gradient(180deg,#1a0714 0%,#38102a 56%,#1b0712 100%)",
+      "text": "You can't [walk into] Allah",
+      "sub": "A cave needs walls to shelter you. *He doesn't.*",
+      "subTop": 470,
+      "art": "refuge",
+      "artTop": 970,
+      "artScale": 1.06,
+      "artDelay": 0.4,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:2"
+    },
+    {
+      "type": "item",
+      "dur": 6.8,
+      "text": "A child needs [a matching pair]",
+      "sub": "Nothing matches Him. So the idea *collapses*.",
+      "subTop": 470,
+      "art": "offspringChain",
+      "artTop": 1060,
+      "artScale": 1.02,
+      "artDelay": 0.4,
+      "artOpts": {
+        "steps": [
+          "a child",
+          "needs\na pair",
+          "needs\nan equal",
+          "Impossible"
+        ]
+      },
+      "cite": "SŪRAT AL-IKHLĀṢ 112:3"
+    },
+    {
+      "type": "item",
+      "dur": 6.2,
+      "text": "And [nothing] weighs against Him",
+      "sub": "Not one thing in creation. *Not one.*",
+      "subTop": 500,
+      "art": "scales",
+      "artTop": 960,
+      "artScale": 1.06,
+      "artDelay": 0.4,
+      "cite": "SŪRAT AL-IKHLĀṢ 112:4"
+    },
+    {
+      "type": "recap",
+      "dur": 7.0,
+      "top": 520,
+      "kicker": "FOUR LINES",
+      "items": [
+        {
+          "t": "Aḥad — no parts to divide",
+          "s": "112:1"
+        },
+        {
+          "t": "aṣ-Ṣamad — no inside, no body",
+          "s": "112:2"
+        },
+        {
+          "t": "No child, no parent",
+          "s": "112:3"
+        },
+        {
+          "t": "Nothing comparable to Him",
+          "s": "112:4"
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "dur": 4.0,
+      "text": "Which line will you *sit with* today?",
+      "top": 290,
+      "art": "nameOrb",
+      "artTop": 700,
+      "artScale": 1.0,
+      "artOpts": {
+        "ar": "أَحَدٌ",
+        "tr": "AḤAD"
+      }
+    },
+    {
+      "type": "cta",
+      "dur": 5.2,
+      "say": "Follow for more such<br>reminders",
+      "btn": "Follow",
+      "btnDone": "Following",
+      "flipAt": 3.4
+    }
+  ]
+}
